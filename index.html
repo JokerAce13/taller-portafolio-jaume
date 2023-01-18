@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Portafolio de Jaume</title>
+  <!--Inicio - Configuración Favicon - Favicon Generation -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--Fin - Configuración Favicon - Favicon Generation -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="images/logo.png" width="70px" height="20px" alt="Imagen del Logo de la aplicación" />
+        <nav class="menu" aria-label="main-navegation">
+          <ul>
+            <li><a class="is-active" href="#main">Hola</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Currículum</button>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <section class="hero" id="main">
+      <div class="hero-image">
+        <img src="images/jaume.png" width="338px" height="330" alt="Imagen de Jaume">
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Jaume</span>
+        </h1>
+        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+        <div class="social">
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-phone.svg" alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-important_mail.svg"
+              alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-instagram.svg" alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-twitter_squared.svg"
+              alt="Icono del telefono"></a>
+        </div>
+        <a class="button" href="#">Descargar currículum</a>
+      </div>
+    </section>
+    <section class="personal-message">
+      <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+      </p>
+      <p>Aquí hay algunos que me gustaría compartir.</p>
+      <a class="button-icon is-only-icon" href="#projects"><img class="is-md-size" src="icons/icons-down.svg"
+          alt="Icono del telefono"></a>
+    </section>
+    <section class="testimonials">
+      <div class="project-testimony">
+        <article class="project">
+          <div class="project-image">
+            <img src="images/leonidas-esteban.png" alt="Imagen de la página de Leonidas Esteban">
+          </div>
+          <div class="project-description">
+            <a class="title" target="_blank" href="#">leonidasesteban.com</a>
+            <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+            <div class="project-buttons">
+              <button class="button">Ver proyecto</button>
+              <button class="button is-secondary">ver código</button>
+            </div>
+          </div>
+        </article>
+        <article class="testimony">
+          <img src="images/user1.png" alt="Imagen del Usuario">
+          <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6
+            meses solo les llevó 1,5 meses".</p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </article>
+      </div>
+
+      <div id="projects" class="project-testimony">
+        <article class="project">
+          <div class="project-image">
+            <img src="images/marvol.png" alt="Imagen de la página de Leonidas Esteban">
+          </div>
+          <div class="project-description">
+            <a class="title" target="_blank" href="#">MARVOL</a>
+            <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de
+              televisión, videos y más oficiales de Marvol.</p>
+            <div class="project-buttons">
+              <button class="button">Ver proyecto</button>
+              <button class="button is-secondary">ver código</button>
+            </div>
+          </div>
+        </article>
+        <article class="testimony">
+          <img src="images/user2.png" alt="Imagen del Usuario">
+          <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+          <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+        </article>
+      </div>
+
+      <div class="project-testimony">
+        <article class="project">
+          <div class="project-image">
+            <img src="images/netnet.png" alt="Imagen de la página de Leonidas Esteban">
+          </div>
+          <div class="project-description">
+            <a class="title" target="_blank" href="#">NETNET</a>
+            <p>Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
+            <div class="project-buttons">
+              <button class="button">Ver proyecto</button>
+              <button class="button is-secondary">ver código</button>
+            </div>
+          </div>
+        </article>
+        <article class="testimony">
+          <img src="images/user3.png" alt="Imagen del Usuario">
+          <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que
+            trabajamos".</p>
+          <p>MARCO CORTEZ / NETNET</p>
+        </article>
+      </div>
+    </section>
+    <form id="contact" class="form" action="" method="post">
+      <div class="form-content">
+        <h2 class="title">Hablemos</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+        <label for="form-name">Nombre Completo</label>
+        <input id="form-name" type="text" name="name" placeholder="Geralt de Rivia" required>
+        <label for="form-email">Correo Electrónico</label>
+        <input id="form-email" type="email" name="email" placeholder="geralt.rivia@prueba.com" required>
+        <label for="form-message">Mensaje</label>
+        <textarea name="message" id="form-message" cols="30" rows="5" required></textarea>
+        <button class="button" type="submit">Enviar Mensaje</button>
+      </div>
+    </form>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo-white.png" width="70px" height="20px" alt="Imagen del Logo de la aplicación" />
+        </div>
+        <div class="social">
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-phone.svg" alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-important_mail.svg"
+              alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-instagram.svg" alt="Icono del telefono"></a>
+          <a class="button-icon" href="tel:2254141"><img src="icons/icon-twitter_squared.svg"
+              alt="Icono del telefono"></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Hecho con el 💙 por Leandro.</p>
+          <p>Copyright 2023 - Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

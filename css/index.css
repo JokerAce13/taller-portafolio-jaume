@@ -1,0 +1,60 @@
+@import "../css/button.css";
+@import "../css/button-icon.css";
+@import "../css/header.css";
+@import "../css/social.css";
+@import "../css/hero.css";
+@import "../css/wrapper.css";
+@import "../css/menu.css";
+@import "../css/about-me.css";
+@import "../css/title.css";
+@import "../css/project-testimony.css";
+@import "../css/form.css";
+@import "../css/footer.css";
+
+
+:root {
+  --primary: #310a90;
+  --secundary: #42E2B8;
+  --white: #ffffff;
+  --red: #DA1414;
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --backgorund1: rgba(255, 255, 255, 0.2);
+  --fontBase: 'Poppins', sans-serif;
+  --fontSecondary: 'Oxygen', sans-serif;
+  --fontThird: 'Source Sans Pro', sans-serif;
+  --headline1: 700 5.9375rem/9.6068754196167rem var(--fontBase);
+  --headline2: 700 3.6875rem/5.96637487411499rem var(--fontBase);
+  --headline3: 700 3rem/4.854000091552734rem var(--fontBase);
+  --headline4: 700 2.125rem/3.4382500648498535rem var(--fontBase);
+  --headline5: 700 1.5rem/2.427000045776367rem var(--fontBase);
+  --body1: 400 1rem/1.6180000305175781rem var(--fontBase);
+  --body2: 400 0.875rem/1.4157500267028809rem var(--fontBase);
+  --body3: 400 2.125rem/3.4382500648498535rem var(--fontSecondary);
+  --body4: 400 1.5rem/2.427000045776367rem var(--fontBase);
+  --body5: 700 1rem/1.6180000305175781rem var(--fontSecondary);
+  --button: 700 0.875rem/1.4157500267028809rem var(--fontBase);
+  --caption: 400 0.75rem/1.2135000228881836rem var(--fontThird);
+  --author: 700 0.75rem/1.2135000228881836rem var(--fontBase);
+}
+
+body {
+  font: var(--body1);
+  background: var(--gradient);
+  color: var(--primary);
+  /* Para que el background funcione correctamente y no se corte */
+  min-block-size: 100vh;
+  margin: 0;
+}
+
+h1{
+  font: var(--headline1);
+  color: var(--primary);
+}
+
+h2{
+  font: var(--headline2);
+}
+
+p{
+  font: var(--body1);
+}

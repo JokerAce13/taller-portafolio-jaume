@@ -1,0 +1,61 @@
+.project {
+    padding-block: 80px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.project-image {
+    text-align: center;
+    flex: 1;
+}
+
+.project-image img {
+    max-inline-size: 100%;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    flex: 1;
+}
+
+.project-description p {
+    text-align: start;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .project {
+        padding-block: 40px;
+        flex-direction: column;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        inline-size: 100%;
+    }
+
+    .project-buttons button:nth-child(1) {
+        order: 2
+    }
+
+    .project-buttons button:nth-child(2) {
+        order: 1
+    }
+
+    .project-image {
+        order: 1;
+    }
+
+    .project-description {
+        order: 2;
+    }
+}

@@ -1,0 +1,16 @@
+.title {
+    font: var(--headline4);
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--primary);
+    padding-block: 4px;
+    padding-inline: 8px;
+    margin-inline-start: 4px;
+    box-shadow: -4px 4px 0px var(--white);
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font: var(--headline5);
+    }
+}
